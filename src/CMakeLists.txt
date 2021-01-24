@@ -30,11 +30,7 @@ set(PROJECT_SOURCES
 
 add_executable(Sqlite3QT ${PROJECT_SOURCES})
 
-
 qt5_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
-
-
-
 
 target_link_libraries(Sqlite3QT PRIVATE
     Qt5::Widgets
