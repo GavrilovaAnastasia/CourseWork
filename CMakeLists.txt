@@ -51,7 +51,7 @@ install(DIRECTORY ${QT_MAIN_DIR}/plugins/sqldrivers/
         DESTINATION ./plugins/sqldrivers USE_SOURCE_PERMISSIONS)
 
 install(DIRECTORY ${QT_MAIN_DIR}/plugins/platforms/
-		DESTINATION ${INSTALL_FOLDER}/plugins/platforms USE_SOURCE_PERMISSIONS)
+		DESTINATION ./plugins/platforms USE_SOURCE_PERMISSIONS)
 
 install(DIRECTORY ${CMAKE_SOURCE_DIR}/doc DESTINATION ${PROJECT_BINARY_DIR})
 
